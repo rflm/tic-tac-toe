@@ -5,25 +5,26 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script type="text/javascript" src="script.js"></script>
   </head>
+  <body>
     <table>
       <tr>
       <tr>
         <th>3</th>
-        <td id="a3">a3</td>
-        <td id="b3">b3</td>
-        <td id="c3">c3</td>
+        <td id="a3" onclick="myFunction('a3')">a3</td>
+        <td id="b3" onclick="myFunction('b3')">b3</td>
+        <td id="c3" onclick="myFunction('c3')">c3</td>
       </tr>
       <tr>
         <th>2</th>
-        <td id="a2">a2</td>
-        <td id="b2">b2</td>
-        <td id="c2">c2</td>
+        <td id="a2" onclick="myFunction('a2')">a2</td>
+        <td id="b2" onclick="myFunction('b2')">b2</td>
+        <td id="c2" onclick="myFunction('c2')">c2</td>
       </tr>
       <tr>
         <th>1</th>
-        <td id="a1">a1</td>
-        <td id="b1">b1</td>
-        <td id="c1">c1</td>
+        <td id="a1" onclick="myFunction('a1')">a1</td>
+        <td id="b1" onclick="myFunction('b1')">b1</td>
+        <td id="c1" onclick="myFunction('c1')">c1</td>
       </tr>
       <tr>
         <th></th>
@@ -32,6 +33,10 @@
         <th>c</th>
       </tr>
     </table>
-  <body>
+    <div id="info">
+      <p id="current-player">Current player: O</p>
+      <p id="o-fields"></p>
+      <p id="x-fields"></p>
+    </div>
   </body>
 </html>
